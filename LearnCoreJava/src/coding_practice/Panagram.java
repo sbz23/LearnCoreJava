@@ -22,11 +22,14 @@ public class Panagram {
 		if(input.length()<26) {
 			return false;
 		}
+		
 		for(char i ='a';i<='z';i++) {
 			if(input.indexOf(i)<0) {
 				return false;
 			}
 		}
-	return true;	
+		
+		
+		return true;
 	}
 }
